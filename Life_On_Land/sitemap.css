@@ -1,0 +1,237 @@
+* {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body.scroll-up .arrow-up-button {
+    display: flex;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    padding: 25px 0;
+    z-index: 1000;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navdiv h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+
+
+.navdiv ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navdiv li {
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 20px
+}
+
+.navdiv li:last-child {
+    margin-right: 0;
+}
+
+.navdiv li:first-child {
+    margin-left: 0;
+}
+
+.navdiv li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17.5px;
+    font-weight: bold;
+}
+
+.navdiv li a:hover {
+    color: #aef0a2;
+}
+
+.profile-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(Profile.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 50px;
+}
+
+
+h1{
+  margin-top: 120px;
+  font-size: 50px;
+  color: green;
+}
+
+
+h1{
+  text-align: center;
+}
+
+
+#svgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+
+#svgJS {
+    display: block;
+    margin: 0 auto;
+}
+#svgJS g:hover g text,
+#svgJS g:hover text {
+    font-weight: bold;
+}
+
+#svgJS g:hover polygon,
+#svgJS g:hover rect,
+#svgJS g:focus polygon,
+#svgJS g:focus rect {
+    fill:black;
+    stroke: darkgreen;
+    stroke-width: 2;
+    transition: 0.2s;         
+}
+
+
+footer{
+  background-color: black;
+  margin-top: 15px;
+}
+.footerContainer{
+  width: 100%;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding:  10px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 50%;
+}
+.socialIcons a i{
+  font-size: 15px;
+  color: black;
+  opacity: 0,9;
+}
+
+.socialIcons a:hover{
+  background-color: black;
+  transition: 0.5s;
+}
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+
+
+.socialIcons1 a:hover{
+  background-color: black;
+  transition: 0.5s;
+}
+.socialIcons1 a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+
+
+.footerNav{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footerNav ul li a{
+  color:white;
+  margin-top: 70px;
+  text-decoration: none;
+  font-size: 15px;
+  opacity: 0.7;
+  transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+.footerBottom{
+  background-color: #1f361d;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 100%;  
+  
+}
+.footerBottom p, a{
+  color: white;
+  font-size: 10px;
+}
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+  color: #94d292;
+}
+
+
+.footerNav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav li {
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 20px
+}
+
+.footerNav li:last-child {
+    margin-right: 0;
+}
+
+.footerNav li:first-child {
+    margin-left: 0;
+}
+
+
